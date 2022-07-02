@@ -16,8 +16,6 @@
 
 <style>
     .home-container {
-        height: 100%;
-        width: 100%;
         background-image: url('../assets/blink.gif');
         background-repeat: no-repeat;
         background-position: 50% 27%;

@@ -3,8 +3,23 @@
 </script>
 
 <div class="projects-container">
-    <h1> Project Showcase</h1>
     <div class="projects-list">
+        <div class="project-showcase">
+            <div class="project"></div>
+            <p class="title">AppleBees Project</p>
+        </div>
+        <div class="project-showcase">
+            <div class="project"></div>
+            <p class="title">AppleBees Project</p>
+        </div>
+        <div class="project-showcase">
+            <div class="project"></div>
+            <p class="title">AppleBees Project</p>
+        </div>
+        <div class="project-showcase">
+            <div class="project"></div>
+            <p class="title">AppleBees Project</p>
+        </div>
         <div class="project-showcase">
             <div class="project"></div>
             <p class="title">AppleBees Project</p>
@@ -18,16 +33,15 @@
 
 <style>
     .projects-container {
-        height: 100%;
-        width: 100%;
-        text-align: center;
-    }
-    .projects-container h1 {
-        margin-bottom: 40px;
+        float: right;
+        height: 676px;
+        width: calc(100% - 100px);
+        margin-top: 40px;
+        box-sizing: border-box;
     }
     .projects-list {
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: auto auto auto;
         gap: 20px;
         margin: 0px 30px;
     }

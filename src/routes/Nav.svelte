@@ -7,7 +7,7 @@
 
 <div class="navbar">
     <div class="nav-item">
-        <a href="">
+        <a href="/">
             <button>
                 <img class="logo-img logo" src={logo} alt="Logo" >
                 <p class="nav-text home">Home</p>
@@ -23,7 +23,7 @@
         </a>
     </div> -->
     <div class="nav-item">
-        <a href="">
+        <a href="/#/projects">
             <button>
                 <img class="logo-img pf" src={pf} alt="Portfolio logo" >
                 <p class="nav-text" >Projects</p>
@@ -43,6 +43,7 @@
 <style>
     .navbar {
         position: fixed;
+        background-color: white;
         display: flex;
         flex-direction: column;
         height: 100%;

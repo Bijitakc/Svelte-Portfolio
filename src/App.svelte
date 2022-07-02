@@ -1,8 +1,17 @@
 <script>
-  import Nav from './components/Nav.svelte'
-  import Socials from './components/Socials.svelte'
-  import Home from './components/Home.svelte'
-  import ProjectsPage from './components/ProjectsPage.svelte';
+  import Router from "svelte-spa-router";
+  import ProjectsPage from './routes/ProjectsPage.svelte';
+  import NotFound from './routes/NotFound.svelte';
+  import Nav from "./routes/Nav.svelte";
+  import Socials from './routes/Socials.svelte';
+  import Home from "./routes/Home.svelte";
+
+  let routes = {
+    "/": Home,
+    "/projects": ProjectsPage,
+
+    "*": NotFound
+  }
 </script>
 
 <svelte:head>
@@ -14,11 +23,11 @@
 <div class="container">
   <Socials />
   <Nav />
-  <div class="content-page">
-    <Home />
-    <ProjectsPage />
-  </div>
 </div>
+
+<main>
+  <Router {routes}></Router>
+</main>
 
 <style>
   :root {
@@ -27,10 +36,5 @@
   .container {
     padding: 1em;
     margin: 0 auto;
-  }
-  .content-page {
-    float: right;
-    height: 676px;
-    width: calc(100% - 70px);
   }
 </style>
