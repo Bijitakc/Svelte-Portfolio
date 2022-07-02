@@ -2,6 +2,7 @@
   import Nav from './components/Nav.svelte'
   import Socials from './components/Socials.svelte'
   import Home from './components/Home.svelte'
+  import ProjectsPage from './components/ProjectsPage.svelte';
 </script>
 
 <svelte:head>
@@ -15,6 +16,7 @@
   <Nav />
   <div class="content-page">
     <Home />
+    <ProjectsPage />
   </div>
 </div>
 

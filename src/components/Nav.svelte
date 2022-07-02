@@ -6,7 +6,7 @@
 </script>
 
 <div class="navbar">
-    <div class="nav-item" style="cursor:pointer;">
+    <div class="nav-item">
         <a href="">
             <button>
                 <img class="logo-img logo" src={logo} alt="Logo" >
@@ -14,30 +14,30 @@
             </button>
         </a>
     </div>
-    <div class="nav-item">
+    <!-- <div class="nav-item">
         <a href="">
             <button>
                 <img class="logo-img skills" src={skills} alt="Skills logo" >
                 <p class="nav-text">Skills</p>
             </button>
         </a>
-    </div>
+    </div> -->
     <div class="nav-item">
         <a href="">
             <button>
                 <img class="logo-img pf" src={pf} alt="Portfolio logo" >
-                <p class="nav-text" >My Portfolio</p>
+                <p class="nav-text" >Projects</p>
             </button>
         </a>
     </div>
-    <div class="nav-item">
+    <!-- <div class="nav-item">
         <a href="">
             <button>
                 <img class="logo-img contact" src={contact} alt="Contact logo" >
-                <p class="nav-text" >Contact Me</p>
+                <p class="nav-text" >Contact</p>
             </button>
         </a>
-    </div>
+    </div> -->
 </div>
 
 <style>
