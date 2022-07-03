@@ -5,10 +5,12 @@
   import Nav from "./routes/Nav.svelte";
   import Socials from './routes/Socials.svelte';
   import Home from "./routes/Home.svelte";
+  import ProjectDetail from "./routes/ProjectDetail.svelte"
 
   let routes = {
     "/": Home,
     "/projects": ProjectsPage,
+    "/project-detail": ProjectDetail,
 
     "*": NotFound
   }

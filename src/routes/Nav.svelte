@@ -42,7 +42,7 @@
 
 <style>
     .navbar {
-        position: fixed;
+        position: absolute;
         background-color: white;
         display: flex;
         flex-direction: column;

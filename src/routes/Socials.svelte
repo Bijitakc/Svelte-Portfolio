@@ -37,6 +37,7 @@
 <style>
     .socials {
         display: flex;
+        justify-content: end;
         gap: 10px;
         background-color: white;
         float: right;

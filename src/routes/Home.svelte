@@ -16,6 +16,10 @@
 
 <style>
     .home-container {
+        float: right;
+        width: calc(100% - 100px);
+        margin-top: 40px;
+        box-sizing: border-box;
         background-image: url('../assets/blink.gif');
         background-repeat: no-repeat;
         background-position: 50% 27%;
